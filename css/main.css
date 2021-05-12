@@ -1729,9 +1729,10 @@ pre .javascript .function {
   right: 0;
   top: 0;
   bottom: 0;
-width
+  width: 0;
   z-index: 1040;
-  box-shadow: inset 0 121px 50px #2f2415;
+  box-shadow: inset 0 2px 6px #000;
+  background: #222;
   -webkit-transform: translateZ(0);
 }
 .sidebar a {
@@ -1889,7 +1890,7 @@ width
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a1bef1;
+  background: #bf4dff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3003,4 +3004,11 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
+}
+.sidebar {
+  box-shadow: inset 0 121px 50px #2f2415;
+  background: none;
+}
+.post {
+  color: #fff;
 }
