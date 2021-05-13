@@ -1890,7 +1890,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff2ddf;
+  background: #784fad;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2999,21 +2999,18 @@ hr {
   }
 }
 body {
-  background: url("/images/Naruto.jpg");
+  background: url("/images/swk.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
 }
 .sidebar {
-  box-shadow: inset 0 121px 50px #2f2415;
+  box-shadow: inset 0 121px 50px #718f95;
   background: none;
 }
-.post-body {
-  color: #fff;
-}
 .posts-expand .post-title-link {
-  color: #fff;
+  text-align: center;
 }
 .post-block {
   background: var(--content-bg-color);
