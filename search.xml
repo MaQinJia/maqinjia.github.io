@@ -14,6 +14,15 @@
       </tags>
   </entry>
   <entry>
+    <title>自由出行</title>
+    <url>/2021/05/11/traffic/</url>
+    <content><![CDATA[<blockquote class="blockquote-center"><p><a href="https://maqinjia.github.io/traffic">掌上出行</a> </p>
+</blockquote>]]></content>
+      <tags>
+        <tag>项目</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python获取阿里百度股票数据并可视化</title>
     <url>/2021/05/10/project/</url>
     <content><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol>
@@ -27,6 +36,7 @@
 </li>
 </ol>
 <span id="more"></span>
+
 <h2 id="从雅虎财经网站上提取阿里巴巴和百度的股票数据并保存为-csv文件"><a href="#从雅虎财经网站上提取阿里巴巴和百度的股票数据并保存为-csv文件" class="headerlink" title="从雅虎财经网站上提取阿里巴巴和百度的股票数据并保存为.csv文件"></a>从雅虎财经网站上提取阿里巴巴和百度的股票数据并保存为.csv文件</h2><h4 id="保存路径可以自己选择"><a href="#保存路径可以自己选择" class="headerlink" title="保存路径可以自己选择"></a>保存路径可以自己选择</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">from</span> pandas_datareader <span class="keyword">import</span> data <span class="keyword">as</span> web</span><br><span class="line"><span class="keyword">import</span> datetime</span><br><span class="line">alibaba = web.DataReader(<span class="string">&#x27;BABA&#x27;</span>,<span class="string">&#x27;yahoo&#x27;</span>,start=<span class="string">&#x27;2010-1-1&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span> (alibaba)</span><br><span class="line">alibaba.to_csv(<span class="string">r&#x27;C:\flash\Alibaba.csv&#x27;</span>,columns=alibaba.columns,index=<span class="literal">True</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>效果图<br><a href="https://imgtu.com/i/gwoddH"><img src="https://z3.ax1x.com/2021/05/12/gwoddH.png" alt="alibaba"></a></p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">baidu = web.DataReader(<span class="string">&#x27;BIDU&#x27;</span>,<span class="string">&#x27;yahoo&#x27;</span>,start=<span class="string">&#x27;2009-12-31&#x27;</span>)</span><br><span class="line"><span class="built_in">print</span> (baidu)</span><br><span class="line">baidu.to_csv(<span class="string">r&#x27;C:\flash\Baidu.csv&#x27;</span>,columns=df_csvsave.columns,index=<span class="literal">True</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -48,15 +58,6 @@
       </categories>
       <tags>
         <tag>Python金融</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>自由出行</title>
-    <url>/2021/05/11/traffic/</url>
-    <content><![CDATA[<blockquote class="blockquote-center"><p><a href="https://maqinjia.github.io/traffic">掌上出行</a> </p>
-</blockquote>]]></content>
-      <tags>
-        <tag>项目</tag>
       </tags>
   </entry>
 </search>
