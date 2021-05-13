@@ -1909,7 +1909,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6aff8e;
+  background: #2f8eff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2057,6 +2057,7 @@ pre .javascript .function {
 }
 .footer {
   font-size: 14px;
+  position: relative;
   color: #999;
 }
 .footer img {
