@@ -5,6 +5,10 @@
     <url>/2021/05/11/chess/</url>
     <content><![CDATA[<blockquote class="blockquote-center"><p><a href="https://maqinjia.github.io/chess">五子棋</a> </p>
 </blockquote>]]></content>
+      <categories>
+        <category>个人博客</category>
+        <category>项目</category>
+      </categories>
       <tags>
         <tag>项目</tag>
       </tags>
@@ -38,6 +42,10 @@
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">plt.plot(data[<span class="string">&quot;Date&quot;</span>],data[<span class="string">&quot;Close&quot;</span>],label=<span class="string">&#x27;Close&#x27;</span>,linewidth=<span class="number">3</span>,color=<span class="string">&#x27;r&#x27;</span>,)</span><br><span class="line">plt.xlabel(<span class="string">&quot;Date&quot;</span>)</span><br><span class="line">plt.ylabel(<span class="string">&#x27;Close&#x27;</span>)</span><br><span class="line">plt.title(<span class="string">&quot;Alibaba Close&quot;</span>)</span><br><span class="line">plt.legend()</span><br><span class="line">plt.grid()</span><br><span class="line">plt.show()</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p><a href="https://imgtu.com/i/gwoXTJ"><img src="https://z3.ax1x.com/2021/05/12/gwoXTJ.png" alt="Alibaba"></a></p>
 ]]></content>
+      <categories>
+        <category>个人博客</category>
+        <category>金融实战</category>
+      </categories>
       <tags>
         <tag>Python金融</tag>
       </tags>
