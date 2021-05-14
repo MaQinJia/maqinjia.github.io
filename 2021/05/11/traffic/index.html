@@ -7,6 +7,7 @@
 
 <html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
+  <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -63,7 +64,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/onepiece.ico?v=5.1.4">
 
 
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
@@ -483,6 +484,29 @@
       <div id="sidebar-dimmer"></div>
     
     <div class="sidebar-inner">
+      <!-- require APlayer -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+
+<!-- require MetingJS-->
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script> 
+<!--网易云playlist外链地址-->   
+<meting-js
+    server="tencent"
+    type="playlist" 
+    id="7996181127"
+    mini="false"
+    fixed="false"
+    list-folded="true"
+    autoplay="true"
+    volume="0.4"
+    theme="#FADFA3"
+    order="list"
+    loop="all"
+    preload="auto"
+    mutex="true">
+</meting-js>
 
       
 
@@ -548,6 +572,12 @@
                         <i class="fa fa-fw fa-github"></i>GitHub</a>
                   </span>
                 
+                  <span class="links-of-author-item">
+                    <a href="mailto:wdnmdhmp@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
             </div>
           
 
@@ -570,9 +600,7 @@
               </ul>
             </div>
           
-          <div id="music163player"></div>
-          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=220 height=450 src="//music.163.com/outchain/player?type=0&id=2421138166&auto=1&height=430"></iframe>
-          </div>
+          
           
 
         </div>
@@ -594,7 +622,7 @@
       <div class="footer-inner">
         <div class="copyright">&copy; <span itemprop="copyrightYear">2021</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-/images/onepiece.ico"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">MaQinJia</span>
 
@@ -787,7 +815,7 @@
     new Valine({
         el: '#comments' ,
         verify: false,
-        notify: true,
+        notify: false,
         appId: 'iuokfpiP1a8qAlDsyXc3wnUI-gzGzoHsz',
         appKey: 'Ji4PP5BAfxjMmf6UTVIH4DKn',
         placeholder: '对我指指点点',
