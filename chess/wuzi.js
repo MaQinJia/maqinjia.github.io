@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/*状态事件*/
+/*状态事件*/
 
 function status1(){
     document.getElementById('qizi').src="/chess/images/black.jpg";
