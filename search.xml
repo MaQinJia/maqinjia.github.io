@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>chess</title>
+    <url>/2021/05/11/chess/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center"><p><a href="https://maqinjia.github.io/chess">五子棋</a> </p>
+</blockquote>]]></content>
+      <categories>
+        <category>个人博客</category>
+        <category>项目</category>
+      </categories>
+      <tags>
+        <tag>项目</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Python获取阿里百度股票数据并可视化</title>
     <url>/2021/05/10/project/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ol>
@@ -36,19 +49,6 @@
       </categories>
       <tags>
         <tag>Python金融</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>chess</title>
-    <url>/2021/05/11/chess/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center"><p><a href="https://maqinjia.github.io/chess">五子棋</a> </p>
-</blockquote>]]></content>
-      <categories>
-        <category>个人博客</category>
-        <category>项目</category>
-      </categories>
-      <tags>
-        <tag>项目</tag>
       </tags>
   </entry>
   <entry>
