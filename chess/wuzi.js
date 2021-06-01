@@ -1,10 +1,10 @@
 <link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>/*状态事件*/
 
 function status1(){
-    document.getElementById('qizi').src="/chess/images/black.jpg";
+    document.getElementById('qizi').src="/source/chess/images/black.jpg";
  }
 function status2(){
-    document.getElementById('qizi').src="/chess/images/white.jpg";
+    document.getElementById('qizi').src="/source/chess/images/white.jpg";
  }
 
 /* 控件事件 */
@@ -45,7 +45,7 @@ var xia = function() {
     alert('不能重复放置棋子！');
     return;
  }
- this.style.background = 'url(/chess/images/' + color + '.jpg)';
+ this.style.background = 'url(/source/chess/images/' + color + '.jpg)';
  judge.call(this, color); // 下完棋后判断胜负
 }
 
