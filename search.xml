@@ -56,6 +56,10 @@
     <url>/2021/05/11/traffic/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote class="blockquote-center"><p><a href="https://maqinjia.github.io/traffic">掌上出行</a> </p>
 </blockquote>]]></content>
+      <categories>
+        <category>个人博客</category>
+        <category>项目</category>
+      </categories>
       <tags>
         <tag>项目</tag>
       </tags>
